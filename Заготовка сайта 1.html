@@ -5,47 +5,11 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#1295cd">
-<meta name="msapplication-navbutton-color" content="#1295cd"> 
-<meta name="apple-mobile-web-app-status-bar-style" content="#1295cd">
-<link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="/images/favicon/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png">
+<link rel="stylesheet" href="style.css">
   <title>Пример использования свойства flex</title>
-<style> 
-* {
-margin:0;  
-color:#fff;
-}
-.content{    
-display: flex;
-height: calc(100vh - 200px);
-background: #999;
-}
-header, footer{
-height: 100px;
-background: #777;
-}
-aside {
-flex: 1;
-}
-main {
-background: #aaa;
-flex: 5 0 450px;
-}
-section{
-display: flex;
-}
-section > div {  
-background: #333;
-margin:5px;
-flex: 1 1 100px;
-height: 100px;
-} 
-</style>
 </head>
-<body><header>header</header> 
+<body>
+  <header>header</header> 
 <div class="content">
 <aside>aside</aside>
 <main>main
