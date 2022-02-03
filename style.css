@@ -1,0 +1,29 @@
+﻿* {
+margin:0;  
+color:#fff;
+}
+.content{    
+display: flex;
+height: calc(100vh - 200px);
+background: #999;
+}
+header, footer{
+height: 100px;
+background: #777;
+}
+aside {
+flex: 1;
+}
+main {
+background: #aaa;
+flex: 5 0 450px;
+}
+section{
+display: flex;
+}
+section > div {  
+background: #333;
+margin:5px;
+flex: 1 1 100px;
+height: 100px;
+} 
